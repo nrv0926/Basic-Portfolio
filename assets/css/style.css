@@ -1,0 +1,191 @@
+body {
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background-image: url(../images/old_moon/old_moon.png);
+  }
+  
+  .head {
+    /*width:960px;
+    padding-left: 196px;*/
+    border-bottom: solid #cccccc;
+    
+      background-color: #ffffff;
+      text-align: center;
+      padding: 1px;
+    
+  }
+  
+  .align{
+    width: 960px;
+    padding-left: 270px;
+  }
+  h2 {
+    font-size: 35px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left:5px;
+    border-bottom: solid #dddddd;
+    color:#4aaaa5;
+    
+  
+  }
+
+  .name{
+    font-size: 24px;
+    font-weight: bold;
+    background-color:#4aaaa5;
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    padding-bottom: 20px;
+  }
+ 
+    
+
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#ffffff;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color:#333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding-bottom: 20px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: cornflowerblue;
+  }
+    
+  .container {
+    width: 960px;
+    padding-top: 0 auto;
+    margin: 0 auto;
+    background-color: #ffffff;
+  }
+  
+  #bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    -webkit-transform: rotate(-90deg);
+  }
+  
+footer {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color:#666666;
+  color: #ffffff;
+  padding-top: .5em;
+  border-top: solid #4aaaa5;
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
+
+footer a {
+  color:#ffffff;
+}
+
+.footer-bar {
+  padding-top: 1em;
+  
+
+}
+  /*Portfolio CSS*/
+
+
+
+  .contact{
+    color:#4aaaa5;
+  }
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=text-1], select {
+    width: 100%;
+    padding: 90px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color:rgb(250, 250, 181);
+  }
+
+  .form{
+    padding: 20px 20px 20px 20px;
+  }
+
+  /* Gallery CSS*/
+  
+  .portfolio{
+    color: #4aaaa5;
+  }
+ div.gallery1{
+   background-color: #ffffff;
+ }
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    padding: 20px;
+
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
